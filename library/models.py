@@ -9,6 +9,7 @@ class Author(models.Model):
     def __str__(self):
         return f"{self.first_name} {self.last_name}"
 
+
 class Book(models.Model):
     GENRE_CHOICES = [
         ('fiction', 'Fiction'),
